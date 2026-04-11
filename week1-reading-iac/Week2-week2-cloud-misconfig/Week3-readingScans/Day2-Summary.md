@@ -18,3 +18,4 @@ A failing pipeline is not a failure of the process — it is a security control.
 The purpose of the pipeline is to stop insecure infrastructure from being deployed.
 
 ## Security Takeaway
+Automated IaC scanning in CI/CD creates an enforceable security gate before deployment.

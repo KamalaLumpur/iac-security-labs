@@ -13,4 +13,4 @@ Security Observations
 
 No obvious security misconfiguration yet.
 Public access not explicitly enabled.
-Encryption settings not visible.
+Encryption settings not visible.S

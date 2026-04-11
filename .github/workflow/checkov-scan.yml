@@ -1,0 +1,19 @@
+name: Terraform Security Scan
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  checkov-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run Checkov
+        uses: bridgecrewio/checkov-action@master
+        with:
+          directory: .
